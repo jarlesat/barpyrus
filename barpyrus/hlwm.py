@@ -103,6 +103,14 @@ def underlined_tags(self, painter): # self is a HLWMTagInfo object
         painter.symbol(0xe071)
     elif self.name == 'scratchpad':
         painter.symbol(0xe022)
+    elif self.name == 'top':
+        painter.symbol(0xe060)
+    elif self.name == 'bottom':
+        painter.symbol(0xe061)
+    elif self.name == 'left':
+        painter.symbol(0xe063)
+    elif self.name == 'right':
+        painter.symbol(0xe062)
     elif self.name == 'music':
         painter.symbol(0xe05c)
     else:
